@@ -29,5 +29,11 @@ install webpack cli:
 
 install loader(s):
   npm install svg-inline-loader --save-dev
-
   npm install css-loader --save-dev
+  npm install style-loader --save-dev
+
+install babel:
+  npm install babel-loader --save-dev
+
+install webpack plugin:
+  npm install html-webpack-plugin --save-dev
