@@ -2,6 +2,8 @@
 
 
 const path = require('path')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
+const webpack = require('webpack')
 
 //Whenever your application is composed of modules, there’s always a single module that is the entry point of your application.
 //It’s the module that kicks everything off.
@@ -18,4 +20,9 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     filename: 'index_bundle.js'
   }
+},
+  plugins: [
+    new HtmlWebpackPlugin()
+  ],
+  mode: process.env.NODE_ENV === 'production' ? 'production' : 'development' //tell react to build in production mode
 }
