@@ -37,3 +37,6 @@ install babel:
 
 install webpack plugin:
   npm install html-webpack-plugin --save-dev
+
+install a development server for webpack:
+  npm install webpack-dev-server --save-dev
