@@ -1,3 +1,6 @@
+AUTHOR: PAIGE JONES
+This is my repo of TYLER MCGINNIS's react course
+
 Steps I took to create the project:
 
 make sure node is installed:
