@@ -40,3 +40,6 @@ install webpack plugin:
 
 install a development server for webpack:
   npm install webpack-dev-server --save-dev
+
+create a .gitignore file:
+//to ignore node modules
